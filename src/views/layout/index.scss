@@ -1,0 +1,70 @@
+.layoutcontent{
+    width: 100%;
+    height: 100%;
+    .n-layout{
+        height: 100vh;
+        .n-layout-header{
+            height: 8%;
+            flex-grow: 0;
+        }
+        .n-layout{
+            height: 92%;
+            // padding: 10px;
+            flex-grow: 1;
+            .n-layout-sider{
+                background-color: $main_color;
+                .n-menu {
+                    .n-menu-item-content {
+                        &:not(.n-menu-item-content--disabled):hover::before{
+                            background-color: $hover_color;
+                        }
+                        &:not(.n-menu-item-content--disabled):not(.n-menu-item-content--selected, child-active):focus-within::before{
+                            background-color: $hover_color;
+                        }
+                        & .n-menu-item-content-header a{
+                            color: $head_menu_font_color;
+                        }
+                        & .n-menu-item-content__icon{
+                            color: $head_menu_font_color;
+                        }
+                        & .n-menu-item-content__arrow{
+                            color: $head_menu_font_color;
+                        }
+                        &.n-menu-item-content--selected{
+                            background-color: $selected_color;
+                        }
+                        &.n-menu-item-content--child-active{
+                            background-color: $selected_color;
+                        }
+
+                        
+                    }
+                }
+            }
+            .n-layout-content{
+                height: 100%;
+                .contentContainer{
+                    background-color: $content_bg_color;
+                    width: 100%;
+                    height: calc( 100% - 50px);
+                    box-sizing: border-box;
+                    padding: 10px;
+                    >div{
+                        height: calc( 100% - 70px);//heder+padding
+                    }
+                    .n-empty{
+                        width: 100%;
+                        height: 100%;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+
+        }
+        // .n-layout-scroll-container{
+            
+        // }
+
+    }
+}

@@ -1,0 +1,35 @@
+$color : pink;
+
+
+//全局主要主要颜色
+$main_color : #388140;;//#004EA2;
+
+//菜单栏hover颜色
+$hover_color : #5fab67;
+//菜单栏选中颜色
+$selected_color : #5fab67;
+
+//header&menu字体颜色
+$head_menu_font_color : #fff;
+
+//全局次要颜色
+$sub_color : #00f91a;
+
+// 内容区域背景色
+$content_bg_color : #eaeaea;
+// searchform-table背景色
+$searchform_table_bg_color : #fff;
+
+// 测试颜色
+$test_color : var(--main-color);
+
+
+
+
+//顶部导航栏颜色
+$top_nav_dot_color : #00f91a;
+$top_nav_bg_color : #fff;
+$top_nav_item_bg_active_color: #388140;
+$top_nav_item_bg_deactive_color: #fff;
+$top_nav_font_active_color : #fff;
+$top_nav_font_deactive_color : #000;
