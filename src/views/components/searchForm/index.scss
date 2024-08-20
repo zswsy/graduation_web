@@ -1,0 +1,27 @@
+.search-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px 0;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: $searchform_table_bg_color;
+
+    .input-box {
+      display: flex;
+      margin-right: 20px;
+      align-items: center;
+      >span {
+        margin-right: 12px;
+      }
+      .n-input {
+        width: 200px;
+      }
+      .n-select.isLong{
+        width: 180px;
+      }
+      .n-select {
+        width: 100px;
+      }
+    }
+  }

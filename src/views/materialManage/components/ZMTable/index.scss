@@ -1,0 +1,25 @@
+.contentTable{
+    width: 100%;
+    height: 93%;
+    .btn {
+        padding-left: 10px;
+        margin-bottom: 10px;
+        .n-button {
+            margin-right: 10px;
+        }
+    }
+    .n-data-table{
+        height: 93%;
+        .delete{
+            color: red;
+        }
+    }
+    .n-pagination{
+        justify-content: flex-end;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .n-switch .n-switch__unchecked{
+        color:black;
+    }
+}
